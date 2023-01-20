@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int main(int argc, char const *argv[])
 {
@@ -17,10 +18,9 @@ int main(int argc, char const *argv[])
         {
             file << "A";
         }
-        file << "\n";
     }
     file.close();
-    cout << "\nYour file is called \"" << fileName << ".txt\"\n\nThanks for using my program!";
+    cout << "\nYour file is called \"" << fileName << ".txt\"\n\nThanks for using my program!\n\nGithub: henrique11varela\n\n";
     cin.ignore();
     cin.ignore();
     return 0;
